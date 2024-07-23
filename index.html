@@ -5,6 +5,7 @@
     <title>Sign Up | Log In</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-signin-client_id" content="203675569681-kc2hg5kuq4kc6r8k94j5c8jq23lkk986.apps.googleusercontent.com">
   </head>
   <body>
     <div class="wrapper">
@@ -39,6 +40,7 @@
                    <div class="btn-layer"></div>
                    <input type="submit" value="Login">
                 </div>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
                 <div class="signup-link">
                    Don't Have Account? <a href="">Create A New</a>
                 </div>
@@ -62,5 +64,6 @@
        </div>
     </div>
     <script src="style.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </body>
 </html>
